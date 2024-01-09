@@ -6,6 +6,7 @@ export default function Day(){
     const wordList = dummy.words.filter(word => word.day === day);
 
     return <>
+        <h2>Day {day}</h2>
         <table>
             <tbody>
                 {wordList.map((item) => (
